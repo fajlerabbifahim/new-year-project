@@ -17,6 +17,7 @@
     url("images/Banner\ Image.png");
   background-position: center;
   background-size: cover;
+  border-radius: 7px;
 }
 .banner-content {
   display: flex;
@@ -35,7 +36,10 @@
   font-size: 65px;
   font-weight: 900;
   align-items: center;
+  font-family: sans-serif;
 }
+
+/* 65% section styles */
 
 .second-section-container {
   width: 500px;
@@ -43,13 +47,12 @@
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 40px;
-  border: 1px solid red;
 }
 .second-section-content {
   text-align: center;
 }
 .second-section-content h1 {
-  font-size: 60px;
+  font-size: 65px;
   font-family: Inter;
   font-weight: 700;
   color: rgb(255, 0, 0);
@@ -70,4 +73,105 @@
 .second-section-content .images {
   margin-top: 23px;
   width: 500px;
+}
+
+/* midnight section styles  */
+
+.midnight-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 600px;
+  margin-top: 20px;
+  background-image: linear-gradient(rgba(7, 2, 17, 0.9), rgba(255, 255, 255, 0)),
+    url("images/Vectorrr.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.midnight-content {
+  color: white;
+  width: 530px;
+}
+.midnight-title {
+  font-size: 56px;
+  font-weight: 700;
+}
+.midnight-describtion {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.midnight-btn {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 600;
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 30px;
+  transition: ease 400ms;
+  margin-left: 22px;
+}
+.midnight-btn:hover {
+  color: rgb(255, 0, 0);
+}
+
+/* midnight section style end here  */
+
+/* adress section styles star */
+
+.address-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 480px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 2px solid purple;
+  border-radius: 7px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0.2) 100%
+  );
+}
+
+.address-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.address-content .place {
+  padding-left: 28px;
+}
+
+span {
+  color: rgb(255, 0, 0);
+}
+.address-btn {
+  margin-top: 80px;
+  border: none;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  padding: 9px 18px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: ease 400ms;
+  margin-left: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.address-btn:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
