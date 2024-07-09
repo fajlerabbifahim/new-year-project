@@ -193,7 +193,6 @@ span {
   min-height: 480px;
   margin-top: 55px;
   margin-bottom: 55px;
-  border: 2px solid tomato;
 }
 .firewall-content {
   display: flex;
@@ -255,7 +254,7 @@ span {
   width: 1300px;
   height: 900px;
   margin: 0 auto;
-  border: 2px solid purple;
+
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -306,5 +305,15 @@ span {
   padding-top: 150px;
   padding-right: 50px;
 }
-
 /* hodiday style ends here  */
+
+/* portfolio style start here  */
+
+/* .portfolio-container {
+  width: 1300;
+  height: 1100;
+  margin: 0 auto;
+  border: 10px solid red;
+} */
+
+/* portfolio style end here  */
