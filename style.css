@@ -6,6 +6,14 @@
   font-family: "Merriweather", serif;
 }
 
+/* sheared style  */
+
+.red-font {
+  color: rgb(255, 0, 0);
+}
+
+/* sheared style  */
+
 /* banner section styles */
 
 .banner-container {
@@ -123,20 +131,20 @@
 
 /* midnight section style end here  */
 
-/* adress section styles star */
+/* address section styles star */
 
 .address-container {
   max-width: 1300px;
   margin: 0 auto;
   min-height: 480px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  border: 2px solid purple;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  /* border: 1px solid rgba(255, 0, 0, 0.1); */
   border-radius: 7px;
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1),
-    rgba(255, 0, 0, 0.2) 100%
+    rgba(255, 0, 0, 0.1) 100%
   );
 }
 
@@ -145,7 +153,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 110px;
+  padding-top: 110px;
 }
 
 .address-content .place {
@@ -163,7 +171,7 @@ span {
   background-color: rgb(255, 0, 0);
   padding: 9px 18px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 50px;
   transition: ease 400ms;
   margin-left: 22px;
   font-family: sans-serif;
@@ -175,3 +183,128 @@ span {
   border: 1px solid rgb(255, 0, 0);
   color: rgb(255, 0, 0);
 }
+/* address section style end here  */
+
+/* firewall section style start  */
+
+.firewall-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 480px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  border: 2px solid tomato;
+}
+.firewall-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firewall-left-content {
+  width: 400px;
+  padding-left: 30px;
+}
+.firewall-sub {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  padding-bottom: 10px;
+}
+.firewall-title {
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.firewall-describtion {
+  font-family: sans-serif;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.firewall-middle-content {
+  padding-top: 50px;
+}
+.firewall-middle-content img {
+  border: 15px solid red;
+  padding: 15px;
+  border-radius: 50%;
+}
+.firewall-right-content {
+  width: 400px;
+  padding-left: 80px;
+  padding-top: 135px;
+}
+.firewall-right-content h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: rgb(255, 0, 0);
+}
+.firewall-right-content img {
+  padding-top: 50px;
+}
+/* firewall section end here  */
+
+/* hodiday style start here  */
+
+.holiday-section-container {
+  width: 1300px;
+  height: 900px;
+  margin: 0 auto;
+  border: 2px solid purple;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.holiday-text-content {
+}
+.holiday-text-content h5 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: rgb(7, 2, 17);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.holiday-text-content h1 {
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.holiday-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding-top: 10px;
+  width: 950px;
+}
+.holiday-solid-bg {
+  width: 1300px;
+  height: 170px;
+  background: url(images/Rectangle\ 2.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  margin-top: 52.2%;
+}
+.gift-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 220px;
+}
+.gift-box #gift {
+  padding-top: 150px;
+  padding-right: 50px;
+}
+
+/* hodiday style ends here  */
